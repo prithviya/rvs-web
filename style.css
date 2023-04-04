@@ -1,0 +1,59 @@
+:root
+{
+    --blue: #040e26;
+    --white: #ffffff;
+    --grey: #f4f4f4;
+}
+.bg-body-tertiary
+{
+    background-color: var(--grey) !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--blue) !important;
+    font-weight: 500;
+}
+.brand-logo
+{
+    max-width: 200px;
+}
+.navbar-toggler-icon
+{
+    background-image: url(./image/brand-logo.png);
+}
+.banner-section
+{
+    background-image: url('./image/slider/slider1700_850-min.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+.banner-title h2
+{
+    font-size: 50px;
+    color: var(--grey);
+    text-transform: capitalize;
+}
+/* form */
+#contact-form
+{
+    padding: 15px;
+    text-align: center;
+}
+#contact-form h4
+{
+    color: var(--blue);
+    text-align: center;
+}
+input[type=text]
+{
+    border: none;
+    border-bottom: 2px solid #f4f4f4;
+    background: transparent;
+    margin-bottom: 10px;
+}
+input[type=text]:active
+{
+    border-bottom: 2px solid #040e26;
+}

@@ -37,6 +37,13 @@ a
 {
     background-color: var(--blue);
 }
+/* mobileview */
+@media only screen and (max-width: 960px) {
+    .notification-bar .mob-align
+    {
+        text-align: center;
+    }
+}
 .bg-body-tertiary
 {
     background-color: var(--white) !important;
@@ -62,6 +69,18 @@ a
     background-position: left;
     background-size: cover;
 }
+/* mobileview */
+@media only screen and (max-width: 600px) {
+    .banner-section
+    {
+        height: 190vh;
+    }
+    .banner-title h2
+    {
+        margin-top: 5% !important;
+        font-size: 35px !important;
+    }
+}
 .banner-title h2
 {
     font-size: 50px;
@@ -74,6 +93,12 @@ a
     justify-content: center;
 }
 /* form */
+#contact-form
+{
+    background-color: #c22124a2;
+    border-radius: 15px;
+    padding: 1.2rem;
+}
 label{
     display:block;
     margin:1em 0 .2em;
@@ -82,9 +107,9 @@ label{
   input, select, textarea{
     display:block;
     width:100%;
-    padding:.3em;
-    font-size:20px;
-    background-color: var(--white);
+    padding:.1em;
+    font-size:18px;
+    background-color: transparent;
     border:solid 1px var(--blue);
     resize:vertical;
   }
@@ -93,7 +118,7 @@ label{
   }
  
   input[type=submit]{
-    background:var(--red);
+    background:var(--blue);
     margin:1em 0 0;
     color:var(--white);
     border:none;
@@ -113,7 +138,7 @@ label{
   /* hover and focus states */
   input[type=submit]:hover,
   input[type=submit]:focus{
-    background: var(--blue);
+    background: var(--red);
     outline:none;
   }
   
@@ -130,10 +155,10 @@ label{
       float:left;
     }
   }
-  
-  
-  
-  
+  .columns
+  {
+    padding:0.8rem;
+  }
   
 /* feature */
 .feature-card
@@ -190,7 +215,7 @@ label{
 /* ctc section */
 .ctc-section .container
 {
-    background-image: url('./image/ctc.png');
+    background-image: url('./image/rank.jpg');
 }
 /* button */
 .animated-button {
@@ -350,7 +375,7 @@ a, button {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    color: var(--red);
+    color: var(--blue);
 }
 .bg-half-light
 {
@@ -444,7 +469,12 @@ a, button {
 }
 .counter-bg
 {
-    background-image: url('./image/ctc.png');
+    background-image: url('./image/best.jpg');
     background-position: center center;
     background-size: cover;
+}
+/* followup */
+.bg-blue
+{
+    background-color: var(--blue);
 }

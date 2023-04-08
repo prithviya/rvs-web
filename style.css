@@ -62,7 +62,9 @@ a
 }
 .navbar-toggler-icon
 {
-    background-image: url(./image/brand-logo.png);
+    background-image: url(./image/menu.svg);
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .banner-section
 {
@@ -90,7 +92,7 @@ a
     font-size: 50px;
     color: var(--white);
     text-transform: capitalize;
-    margin-top: 32%;
+    margin-top: 30%;
 }
 .custom-align-center {
     display: flex;

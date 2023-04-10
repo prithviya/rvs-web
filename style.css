@@ -479,6 +479,23 @@ a, button {
     background-position: center center;
     background-size: cover;
 }
+
+.access
+{
+  padding-left: 20px;
+}
+.access li
+{
+  padding-left: 5px;
+  color: var(--white);
+  margin-bottom: 5px;
+}
+.access li::marker
+{
+    content: "\26BD";
+    color: #CA0028;
+    font-size: 1.2rem;
+}
 /* followup */
 .bg-blue
 {

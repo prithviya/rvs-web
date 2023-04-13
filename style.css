@@ -227,7 +227,7 @@ label{
 .animated-button {
     position: relative;
     display: inline-block;
-    padding: 16px 28px;
+    padding: 10px 15px;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
@@ -603,4 +603,11 @@ a, button {
 
 .box .body .content div h3{
     letter-spacing: 1px;
+}
+/* testimonial */
+.bg-gradient
+{
+    background: linear-gradient(145deg, #040e26, #c22125 100%) !important;
+    color: var(--white);
+    border-radius: 15px;
 }

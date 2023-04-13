@@ -296,6 +296,23 @@ label{
       opacity: 0;
     }
   }
+  /* blink */
+  .blink
+  {
+    background: linear-gradient(
+        to right,
+        #CA0028 20%,
+        #1a24a8 30%,
+        #0300ca 70%,
+        #CA0028 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+  }
   /* facility */
 .justify-content-center 
 {
